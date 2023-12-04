@@ -1,0 +1,16 @@
+@openzeppelin
+npm i @openzeppelin/contracts
+
+@dotenv
+npm i dotenv
+
+@hardhat
+npm i --save-dev hardhat
+
+@compile
+npx hardhat compile
+
+@deployment
+npx hardhat run --network {network-name} scripts/deploy.js
+
+/The network name is defined in hardhat.config
